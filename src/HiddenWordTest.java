@@ -21,8 +21,7 @@ class HiddenWordTest {
     }
 
     @org.junit.jupiter.api.Test
-    void capitalizedHiddenWord() {
-
+    void capitalizedHiddenWord(){
         assertEquals("FANTASTIC", hw.getHiddenWord());
 
     }
